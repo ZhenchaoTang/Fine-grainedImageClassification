@@ -1,10 +1,5 @@
-BATCH_SIZE = 16
-PROPOSAL_NUM = 6
-CAT_NUM = 4
-INPUT_SIZE = (448, 448)  # (w, h)
-LR = 0.0001
-WD = 1e-4
-SAVE_FREQ = 1
+BATCH_SIZE = 8
+INPUT_SIZE = (224, 224)
 resume = ''
-test_model = './checkpoints/model.ckpt'
+test_model = './ckpt/xxx.pth'
 save_dir = './trainlog/'
